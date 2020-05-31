@@ -1,0 +1,961 @@
+HGInterface(
+	Name="java.awt.event.MouseMotionListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.util.EventListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="javax.accessibility.Accessible";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="java.awt.event.WindowFocusListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.io.Serializable";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="java.io.FilenameFilter";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="org.fonteditor.utilities.sort.Comparator";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="java.awt.event.ActionListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.awt.event.MouseListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.awt.event.ItemListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.awt.MenuContainer";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="java.awt.event.WindowStateListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.awt.event.WindowListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.awt.event.KeyListener";
+	IsExternal = False();
+	ExtendedInterfaces = [
+		"java.util.EventListener"
+	]
+)
+HGInterface(
+	Name="java.lang.Cloneable";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGInterface(
+	Name="java.awt.image.ImageObserver";
+	IsExternal = False();
+	ExtendedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionStream$3";
+	IsExternal = False();
+	Superclass = "org.fonteditor.utilities.callback.CallBack";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.callback.CallBack";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.lang.Object";
+	IsExternal = False();
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionStream$1";
+	IsExternal = False();
+	Superclass = "org.fonteditor.utilities.callback.CallBack";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.CharacterGrid$BKeyListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.KeyAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.awt.event.KeyAdapter";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.KeyListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.demonstration.DemoFrame$1";
+	IsExternal = False();
+	Superclass = "java.awt.event.WindowAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.awt.event.WindowAdapter";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.WindowListener", 
+		"java.awt.event.WindowStateListener", 
+		"java.awt.event.WindowFocusListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.Editor$BKeyListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.KeyAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphInnerPanel$FEActionListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ActionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphFrame$1";
+	IsExternal = False();
+	Superclass = "java.awt.event.WindowAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.gui.TTNumStr";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.curves.BaseCurve";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.cache.FEFontCache";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.FontSelectorRip";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+		"java.awt.event.ItemListener"
+	]
+)
+HGClass(
+	Name="java.awt.Panel";
+	IsExternal = False();
+	Superclass = "java.awt.Container";
+	ImplementedInterfaces = [
+		"javax.accessibility.Accessible"
+	]
+)
+HGClass(
+	Name="java.awt.Container";
+	IsExternal = False();
+	Superclass = "java.awt.Component";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.awt.Component";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.image.ImageObserver", 
+		"java.awt.MenuContainer", 
+		"java.io.Serializable"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphOuterPanel";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphInnerPanel$BKeyListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.KeyAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphOuterPanel$FEActionListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ActionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.sort.QuickSort";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FEGlyph$3";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.paths.ExecutorOnFEPath";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.paths.ExecutorOnFEPath";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.resources.FileLoader";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FEGlyph$1";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.paths.ExecutorOnFEPath";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.DefaultFrameDisplayOptions";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.applet.Applet";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphOuterPanel$BMouseListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.MouseAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.awt.event.MouseAdapter";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.MouseListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.springs.Spring";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.gui.TTChoice";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.sliders.Sliders$1";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.paths.ExecutorOnFEPath";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.demonstration.DemoPanel$BKeyListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.KeyAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.CharacterGrid$BMouseListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.MouseAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.demonstration.DemoPanel";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.ChooseWidth$FEActionListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ActionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.options.Coords";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.lang.Cloneable"
+	]
+)
+HGClass(
+	Name="java.awt.Canvas";
+	IsExternal = False();
+	Superclass = "java.awt.Component";
+	ImplementedInterfaces = [
+		"javax.accessibility.Accessible"
+	]
+)
+HGClass(
+	Name="java.awt.Point";
+	IsExternal = False();
+	Superclass = "java.awt.geom.Point2D";
+	ImplementedInterfaces = [
+		"java.io.Serializable"
+	]
+)
+HGClass(
+	Name="java.awt.geom.Point2D";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.lang.Cloneable"
+	]
+)
+HGClass(
+	Name="org.fonteditor.hinter.Hinter$1";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.paths.ExecutorOnFEPath";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.paths.FEPathList";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.springs.SpringManager";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.curves.StraightLine";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.curves.BaseCurve";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.ResolutionSelector";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+		"java.awt.event.ItemListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FontSave";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.demonstration.DemoFrame";
+	IsExternal = False();
+	Superclass = "java.awt.Frame";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.awt.Frame";
+	IsExternal = False();
+	Superclass = "java.awt.Window";
+	ImplementedInterfaces = [
+		"java.awt.MenuContainer"
+	]
+)
+HGClass(
+	Name="java.awt.Window";
+	IsExternal = False();
+	Superclass = "java.awt.Container";
+	ImplementedInterfaces = [
+		"javax.accessibility.Accessible"
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$7";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.Instruction";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$5";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$3";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphInnerPanel$BMouseListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.MouseAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphFrame";
+	IsExternal = False();
+	Superclass = "java.awt.Frame";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$1";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="RootClass";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphOuterPanel$BMouseMotionListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.MouseMotionAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="java.awt.event.MouseMotionAdapter";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.MouseMotionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.ChooseWidth$FEItemListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ItemListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.Editor$1";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.io.FilenameFilter"
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FontLoad";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FEFont";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.GlyphArray";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FontRip$1";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.paths.ExecutorOnFEPath";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.graphics.TTImage";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.general.Utils";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionStream$2";
+	IsExternal = False();
+	Superclass = "org.fonteditor.utilities.callback.CallBack";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.sliders.SliderManagerBase";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.cache.CachedGlyph";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.hinter.HintingGroup";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.points.FEPointList";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.paths.FEPath";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.log.Log";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.cache.FEGlyphCache";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.FE";
+	IsExternal = False();
+	Superclass = "java.applet.Applet";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.graphics.WideLine";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphInnerPanel";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.resources.ZipLoader";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.applet.TTAppletFrame$1";
+	IsExternal = False();
+	Superclass = "java.awt.event.WindowAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.resources.ResourceLoader";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.sliders.SliderBase";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.CharacterGrid$BMouseMotionListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.MouseMotionAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.curves.CubicBezier";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.curves.BaseCurve";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.random.JUR";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.ResolutionSelector$FEActionListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ActionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.sliders.SliderManagerBase$1";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"org.fonteditor.utilities.sort.Comparator"
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FEGlyph$2";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.paths.ExecutorOnFEPath";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.options.CoordsEditor";
+	IsExternal = False();
+	Superclass = "org.fonteditor.options.Coords";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.CharacterGrid";
+	IsExternal = False();
+	Superclass = "java.awt.Canvas";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphOuterPanel$BKeyListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.KeyAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.FEFontRenderer";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FEGlyph";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.points.FEPoint";
+	IsExternal = False();
+	Superclass = "java.awt.Point";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.ChooseWidth";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.font.FontRip";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.graphics.ImageProcessor";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.QualityChoice";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+		"java.awt.event.ItemListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphInnerPanel$BMouseMotionListener";
+	IsExternal = False();
+	Superclass = "java.awt.event.MouseMotionAdapter";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.options.GlyphDisplayOptions";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.lang.Cloneable"
+	]
+)
+HGClass(
+	Name="org.fonteditor.hinter.Passer";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.frame.GlyphOuterPanel$FEItemListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ItemListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.sliders.Sliders";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionStream";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.hinter.Hinter";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$8";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$6";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$4";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.elements.curves.QuadraticBezier";
+	IsExternal = False();
+	Superclass = "org.fonteditor.elements.curves.BaseCurve";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.instructions.InstructionArray$2";
+	IsExternal = False();
+	Superclass = "org.fonteditor.instructions.Instruction";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.cache.FEDisplayOptionsCache";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.utilities.applet.TTAppletFrame";
+	IsExternal = False();
+	Superclass = "java.awt.Frame";
+	ImplementedInterfaces = [
+		"java.awt.event.ActionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.Editor$FEActionListener";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+		"java.awt.event.ActionListener"
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.Editor";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.CharacterInGrid";
+	IsExternal = False();
+	Superclass = "java.lang.Object";
+	ImplementedInterfaces = [
+	]
+)
+HGClass(
+	Name="org.fonteditor.editor.grid.FontSelectorLoad";
+	IsExternal = False();
+	Superclass = "java.awt.Panel";
+	ImplementedInterfaces = [
+		"java.awt.event.ItemListener"
+	]
+)
+

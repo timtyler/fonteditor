@@ -1,0 +1,21 @@
+ClassFiles_InfoSource(
+Name = "whiteBox";
+ClassPath = ["C:\Documents\Java\FontEditor\source",];
+)
+ClassFiles_InfoSource(
+Name = "blackBox";
+ClassPath = [];
+)
+Component(
+Name = "autoName";
+AnalyzableSources = [
+   Member(
+      InfoSource = "whiteBox";
+      Exports = [
+      ]
+   )
+];
+BlackBoxSources = ["blackBox"];
+ComponentType = Complete();
+)
+

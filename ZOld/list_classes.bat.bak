@@ -1,0 +1,5 @@
+cd source
+jikes -classpath .;C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar +U -Xstdout -nowrite -verbose Run.java > ../file_list_raw.txt
+cd ..
+grep write file_list_raw.txt >file_list.txt
+del file_list_raw.txt 

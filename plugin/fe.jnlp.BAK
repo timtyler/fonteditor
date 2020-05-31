@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- JNLP File for FontEditor Application --> 
+<jnlp 
+  spec="1.0+" 
+  codebase="http://fonteditor.org/editor/plugin" 
+  href="fe.jnlp"> 
+  <information> 
+    <title>FontEditor - fonts in pure Java</title> 
+    <vendor>Written by Tim Tyler</vendor> 
+    <homepage href="http://fonteditor.org/"/> 
+    <description>FontEditor application</description> 
+    <description kind="short">Font esitor and font renderer</description> 
+    <icon href="graphics/fe_icon.jpeg"/> 
+    <offline-allowed/>
+  </information> 
+  <resources> 
+    <j2se version="1.3"/> 
+    <jar href="fe.jar"/> 
+  </resources> 
+  <application-desc main-class="org.fonteditor.FE"/> 
+</jnlp> 

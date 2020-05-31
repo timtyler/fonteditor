@@ -1,0 +1,42 @@
+!187;s
+A
+SAU0
+SCU0
+S+U0
+SJU0CLASSPATH+=.;\012CLASSPATH=+;%EXTENSION_PATH\\classes\\user;%EXTENSION_PATH\\classes\\system\012CLASSPATH=C:\\Program1\\Java\\JDKs\\Sun\\jre\\lib\\rt.jar;.
+SOU0
+SPU0
+!653;f
+%	Coords.java
+%	CubicBezier.java
+%	ExecutionContext.java
+%	FE.java
+%	FEAppletFrame.java
+%	FEGlyph.java
+%	FEGlyphArray.java
+%	FEGlyphFrame.java
+%	FEGlyphPanel.java
+%	FEPath.java
+%	FEPathElement.java
+%	FEPathList.java
+%	FEPoint.java
+%	FEPointList.java
+%	ImageProcessor.java
+%	Instruction.java
+%	InstructionArray.java
+%	InstructionExecutable.java
+%	InstructionStream.java
+%	JUR.java
+%	Log.java
+%	QuadraticBezier.java
+%	Ripper.java
+%	StraightLine.java
+%	TTAppletFrame.java
+%	TTImage.java
+%	WideLine.java
+%	SliderBase.java
+%	SliderManagerBase.java
+%	SliderManagerHorizontal.java
+%	SliderManagerVertical.java
+%	GlyphDisplayOptions.java
+%	FEGlyphInstance.java

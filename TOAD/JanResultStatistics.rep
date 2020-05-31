@@ -1,0 +1,42 @@
+
+-- Information about HG:
+
+Number of nodes in HG: 134
+	classes: 118
+	interfaces: 16
+
+	analyzable: 105
+	blackbox: 29
+
+	internal: 134
+	external: 0
+
+Number of edges in HG: 156
+	subclassing edges: 117
+	implements edges: 31
+	interface extensions: 8
+
+
+-- Information about classes in RG:
+
+Nodes in RG: 183
+Number of classfiles processed: 105
+	Number of interfaces processed: 1
+	Number of classes processed: 104
+Number of abstract classes processed: 4
+
+Number of declared methods processed: 741
+	Number of static methods: 107
+		statics in interfaces: 0
+		statics in classes: 107
+	Number of non-static methods: 634
+		non-statics in interfaces: 2
+		non-statics abstract in classes: 9
+		non-statics non-abstract in classes: 623
+
+	total in interfaces: 2
+	total in classes: 739
+
+Number of fields: 364
+Number of static fields: 114
+

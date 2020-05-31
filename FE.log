@@ -1,0 +1,658 @@
+
+Configuration file name is "FE.jax"
+
+jax V6.1-Monday-Oct-18-1999 Copyright IBM 1997-1999. All rights reserved.
+
+More info: http://www.alphaWorks.ibm.com/tech/jax
+           http://www.research.ibm.com/jax
+
+
+Options: obfuscate nokeeppackagenames transform verify devirtualize nooptimize inline nocompatibleserialization 
+
+
+Java Execution Environment Information:
+=================================================================
+creation time      = Mon Sep 02 11:27:47 GMT+01:00 2002
+os.name            = Windows 2000
+os.arch            = x86
+os.version         = 5.1
+java.version       = 1.3.0
+java.vendor        = IBM Corporation
+java.vendor.url    = http://www.ibm.com/
+java.class.version = 46.0
+java.class.path    = .;C:\Program1\Java\JDKs\IBM\jre\lib\rt.jar;C:\Incoming\Java\IBM\JAX\jax61.zip;C:\Documents\Java\FontEditor\bin
+java.home          = C:\Program1\Java\JDKs\IBM\jre
+java_compiler      = jitc
+=================================================================
+
+Loading basic type interface void
+Loading external interface java.io.Serializable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.security.Guard from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading basic type interface int
+Loading external interface java.lang.Comparable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading basic type interface char
+Loading external interface java.lang.CharSequence from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface char[]
+Loading basic type interface long
+Loading array interface java.io.ObjectStreamField[]
+Loading basic type interface boolean
+Loading external interface java.lang.reflect.Member from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading basic type interface byte
+Loading basic type interface short
+Loading basic type interface float
+Loading basic type interface double
+Loading external interface sun.reflect.FieldAccessor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.reflect.Field from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectStreamField from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.Comparator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface byte[]
+Loading external class java.io.InputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.DataInput from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.ObjectInput from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.Enumeration from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.PermissionCollection from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.BasicPermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.SerializablePermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.ObjectStreamConstants from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.Iterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.Object[]
+Loading external interface java.util.Collection from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.Set from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.Map from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.AbstractMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.lang.Cloneable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.util.HashMap$Entry[]
+Loading external interface java.util.Map$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.HashMap$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.OutputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.DataOutput from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.ObjectOutput from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ref.ReferenceQueue$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ref.ReferenceQueue$Lock from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ref.Reference$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ref.Reference$Lock from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ref.Reference from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ref.ReferenceQueue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.misc.SoftCache from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.FilterOutputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.DataOutputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface boolean[]
+Loading array interface short[]
+Loading array interface int[]
+Loading array interface float[]
+Loading array interface long[]
+Loading array interface double[]
+Loading external class java.io.ObjectOutputStream$BlockDataOutputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectOutputStream$HandleTable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectOutputStream$ReplaceTable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.Class[]
+Loading external interface sun.reflect.MethodAccessor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.reflect.Method from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.reflect.ConstructorAccessor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.reflect.LangReflectAccess from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.reflect.ReflectionFactory from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Number from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Long from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.StackTraceElement[]
+Loading external class java.lang.StackTraceElement from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.Writer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.BufferedWriter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.spi.CharsetProvider from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.ThreadLocal$ThreadLocalMap$Entry[]
+Loading external class java.lang.ref.WeakReference from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ThreadLocal$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ThreadLocal$ThreadLocalMap$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ThreadLocal$ThreadLocalMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.lang.Runnable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.Thread[]
+Loading array interface java.lang.ThreadGroup[]
+Loading external class java.lang.ThreadGroup from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.Dictionary from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.util.Hashtable$Entry[]
+Loading external class java.util.Hashtable$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.Hashtable$EmptyEnumerator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.Hashtable$EmptyIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.Hashtable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.security.cert.Certificate[]
+Loading external interface java.security.Key from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.security.PublicKey from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.cert.Certificate from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.AbstractCollection from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.ListIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.List from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.AbstractList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.RandomAccess from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.Vector from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.ArrayList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.Stack from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface byte[][]
+Loading external interface sun.net.spi.nameservice.NameService from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.LinkedHashMap$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.LinkedHashMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.net.InetAddress[]
+Loading external interface java.net.InetAddressImpl from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.InetAddress from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.NetPermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.net.URLStreamHandlerFactory from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.Parts from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.RuntimePermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.AWTPermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.AllPermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.SocketPermission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.String[]
+Loading external class java.io.FileDescriptor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.SecurityManager from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.URL from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.net.FileNameMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.ContentHandler from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.net.ContentHandlerFactory from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.URLConnection from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.URLStreamHandler from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.net.URL[]
+Loading external class java.util.jar.Attributes$Name from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.FilterInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.jar.Manifest$FastInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.jar.Attributes from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.jar.Manifest from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.misc.Resource from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.misc.URLClassPath$Loader from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.misc.URLClassPath from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.CodeSource from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.security.Principal[]
+Loading external interface java.security.Principal from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.ProtectionDomain from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.Package[]
+Loading external interface java.security.PrivilegedAction from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Package$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Package from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.io.File[]
+Loading external class java.io.FileSystem from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.net.URI from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.FilenameFilter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.FileFilter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.File from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.AssertionStatusDirectives from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ClassLoader from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.security.ProtectionDomain[]
+Loading external interface java.security.DomainCombiner from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.security.util.Debug from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.AccessControlContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.nio.ch.Interruptible from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Thread from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ThreadLocal from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.SortedMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.util.Locale[]
+Loading external class java.lang.ref.SoftReference from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.ResourceBundle$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.ResourceBundle$ResourceCacheKey from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Integer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.ResourceBundle from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.text.AttributedCharacterIterator$Attribute from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.text.Format$Field from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.text.Format$FieldDelegate from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.text.FieldPosition from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.text.CharacterIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.text.AttributedCharacterIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.text.ParsePosition from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.text.AttributedCharacterIterator[]
+Loading external class java.text.Format from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.text.Format[]
+Loading array interface java.lang.StringBuffer[]
+Loading external class java.text.MessageFormat from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.String[][]
+Loading external class java.util.Locale from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.CodingErrorAction from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.CoderResult$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.CoderResult$Cache from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.CoderResult from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.Buffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.ByteOrder from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.CharBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.ShortBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.IntBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.LongBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.FloatBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.DoubleBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.ByteBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.CharsetDecoder from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.CharsetEncoder from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.charset.Charset from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.nio.channels.Channel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.nio.channels.WritableByteChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.nio.cs.StreamEncoder$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.nio.cs.StreamEncoder from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.OutputStreamWriter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.PrintStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.PrintWriter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Throwable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Exception from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.ClassNotFoundException from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.IOException from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectStreamException from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.InvalidClassException from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.misc.Unsafe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectStreamClass$FieldReflector from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.io.ObjectStreamClass$ClassDataSlot[]
+Loading external class java.io.ObjectStreamClass$ClassDataSlot from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectStreamClass from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectOutputStream$PutField from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectOutputStream$PutFieldImpl from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.Externalizable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectOutputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.HashMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$PeekInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.DataInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$BlockDataInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.io.ObjectInputValidation from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$ValidationList$Callback from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$ValidationList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.io.ObjectInputStream$HandleTable$HandleList[]
+Loading external class java.io.ObjectInputStream$HandleTable$HandleList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$HandleTable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$GetField from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream$GetFieldImpl from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.ObjectInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.StringBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.String from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.security.Permission from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.reflect.AccessibleObject[]
+Loading external class java.lang.reflect.AccessibleObject from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.reflect.Constructor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.reflect.Field[]
+Loading array interface java.lang.reflect.Method[]
+Loading array interface java.lang.reflect.Constructor[]
+Loading external class java.lang.Class from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Object from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.Error from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.LinkageError from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.NoClassDefFoundError from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Transparency from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.color.ColorSpace from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.DataBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.SampleModel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.geom.Point2D from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Point from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.geom.PathIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.geom.Point2D[]
+Loading external class java.awt.geom.AffineTransform from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Shape from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.geom.Dimension2D from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.geom.RectangularShape from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.geom.Line2D from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.geom.Rectangle2D from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Dimension from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Rectangle from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.Raster from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.WritableRaster from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.color.ProfileDeferralInfo from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.awt.color.ProfileActivator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.nio.channels.InterruptibleChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.channels.spi.AbstractInterruptibleChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.nio.channels.ReadableByteChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.nio.channels.ByteChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.nio.ByteBuffer[]
+Loading external interface java.nio.channels.GatheringByteChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.nio.channels.ScatteringByteChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.MappedByteBuffer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.channels.FileChannel$MapMode from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.channels.FileLock from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.nio.channels.FileChannel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.FileInputStream from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.color.ICC_Profile from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface sun.awt.color.ICC_Transform[]
+Loading external interface java.awt.image.RenderedImage from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.image.TileObserver from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.Point[]
+Loading external interface java.awt.image.WritableRenderedImage from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.image.OffScreenImageSource from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.image.PixelConverter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.SurfaceType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.PaintContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.RenderingHints$Key from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.RenderingHints from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Paint from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Color from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.font.TransformAttribute from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.FontPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.text.AttributedCharacterIterator$Attribute[]
+Loading external class java.awt.font.LineMetrics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Font$1 from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Font$FontLineMetrics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.font.FontRenderContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.geom.Rectangle2D$Float from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.font.GlyphMetrics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.font.GlyphJustificationInfo from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.font.GlyphVector from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Font from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.FontMetrics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.geom.Crossings from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Polygon from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Graphics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.image.BufferedImageOp from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.renderable.RenderContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.image.renderable.RenderableImage from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.ImageCapabilities from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.DebugHelper from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.AttributeValue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.BufferCapabilities$FlipContents from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.BufferCapabilities from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.util.EventListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.EventObject from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.beans.PropertyChangeEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.beans.PropertyChangeListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.beans.PropertyChangeListener[]
+Loading external class java.beans.PropertyChangeSupport from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface javax.accessibility.AccessibleRelation[]
+Loading external class javax.accessibility.AccessibleBundle from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.accessibility.AccessibleRelation from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.accessibility.AccessibleRelationSet from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.accessibility.AccessibleRole from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface javax.accessibility.AccessibleState[]
+Loading external class javax.accessibility.AccessibleState from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.accessibility.AccessibleStateSet from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleAction from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.Cursor[]
+Loading external class java.util.Properties from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Cursor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface int[][]
+Loading external class java.awt.event.InputEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.KeyEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Event from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.PaintEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.LightweightPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.AWTEventListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.util.WeakHashMap$Entry[]
+Loading external class java.util.WeakHashMap$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.WeakHashMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ButtonPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.ActionEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.ActionListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.ActionListener[]
+Loading array interface java.util.EventListener[]
+Loading external class java.awt.Button from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.TextComponentPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.TextFieldPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.TextEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.TextListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.TextListener[]
+Loading external class java.awt.TextComponent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.TextField from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.LabelPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Label from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ListPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.ItemEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.ItemListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.ItemSelectable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.ItemListener[]
+Loading external class java.awt.List from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Checkbox from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.CheckboxGroup from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.CheckboxPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ScrollbarPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.AdjustmentEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.AdjustmentListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Adjustable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.AdjustmentListener[]
+Loading external class java.awt.Scrollbar from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Insets from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ContainerPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ScrollPanePeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.ScrollPaneAdjustable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.LayoutManager from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.MouseEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.MouseWheelEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.ScrollPane from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.TextAreaPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.TextArea from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ChoicePeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Choice from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.WindowPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.MenuComponentPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.MenuContainer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.MostRecentThreadAppContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.MostRecentKeyValue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.AppContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.MenuComponent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.MenuShortcut from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.MenuItem from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Menu from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.MenuBar from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.FramePeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.Frame[]
+Loading external class java.awt.Frame from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.CanvasPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.BufferStrategy from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Canvas from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.PanelPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.DialogPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Dialog from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.MenuBarPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.MenuItemPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.MenuPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.PopupMenuPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PopupMenu from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.FileDialogPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.FileDialog from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.CheckboxMenuItemPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.CheckboxMenuItem from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PrintJob from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.JobAttributes$DefaultSelectionType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.JobAttributes$DestinationType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.JobAttributes$DialogType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.JobAttributes$MultipleDocumentHandlingType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.JobAttributes$SidesType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.JobAttributes from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PageAttributes$ColorType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PageAttributes$MediaType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PageAttributes$OrientationRequestedType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PageAttributes$OriginType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PageAttributes$PrintQualityType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.PageAttributes from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.datatransfer.DataFlavor[]
+Loading external class java.awt.datatransfer.MimeTypeParameterList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.datatransfer.MimeType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.io.Reader from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.datatransfer.DataFlavor from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.datatransfer.Transferable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.datatransfer.ClipboardOwner from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.datatransfer.Clipboard from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.Queue[]
+Loading external class java.awt.EventQueueItem from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Queue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Conditional from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.EventDispatchThread from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.EventQueue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DragSourceEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DragSourceDragEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DragSourceDropEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.DragSourceListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.DragSourceMotionListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.datatransfer.FlavorMap from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.DragGestureListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DragGestureRecognizer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.dnd.DragSourceListener[]
+Loading array interface java.awt.dnd.DragSourceMotionListener[]
+Loading external class java.awt.dnd.DragSource from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DragGestureEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DragSourceContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.peer.DragSourceContextPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.AWTEventListener[]
+Loading external class java.awt.im.InputMethodHighlight from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Toolkit from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.VolatileImage from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.peer.ComponentPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.AWTEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.ComponentEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.FocusEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.FocusListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleComponent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleSelection from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.swing.text.AttributeSet from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleText from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleEditableText from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleValue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface javax.accessibility.AccessibleIcon[]
+Loading external interface javax.accessibility.AccessibleIcon from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.AccessibleTable from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.accessibility.AccessibleContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface javax.accessibility.Accessible from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.WindowEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.WindowListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.WindowStateListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.WindowFocusListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.lang.Character$Subset[]
+Loading external class java.lang.Character$Subset from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.im.InputContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.FocusManager from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.Window[]
+Loading array interface java.awt.event.WindowListener[]
+Loading array interface java.awt.event.WindowFocusListener[]
+Loading array interface java.awt.event.WindowStateListener[]
+Loading external class java.awt.Window from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.GraphicsConfiguration[]
+Loading external class java.awt.GraphicsConfigTemplate from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.DisplayMode from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.DisplayMode[]
+Loading external class java.awt.GraphicsDevice from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.GraphicsConfiguration from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.CompositeContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Composite from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.Stroke from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Graphics2D from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.awt.ConstrainableGraphics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.PixelFillPipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.DrawImagePipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.ShapeDrawPipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.TextPipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.AlphaComposite from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.CompositeType from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface sun.java2d.loops.RenderCache$Entry[]
+Loading external class sun.java2d.loops.RenderCache$Entry from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.RenderCache from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.Blit from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.loops.GraphicsPrimitive$GeneralBinaryOp from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.loops.GraphicsPrimitive$GeneralUnaryOp from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.GraphicsPrimitive from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.MaskFill from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.DrawLine from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.FillRect from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.DrawRect from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.DrawPolygons from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.SpanIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.FillSpans from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.FontInfo from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.font.GlyphList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.DrawGlyphList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.DrawGlyphListAA from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.loops.RenderLoops from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.RegionIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.Region from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.ValidatePipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.NullPipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface sun.awt.font.FontDesignMetrics[]
+Loading external class sun.awt.font.FontDesignMetrics from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.BasicStroke from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.SunGraphics2D from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.PixelDrawPipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.dc.path.FastPathProducer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.dc.path.PathConsumer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.ShapeSpanIterator from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.LoopPipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.java2d.pipe.CompositePipe from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.PixelToShapeConverter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.dc.pr.PathFiller from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.dc.pr.PathStroker from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.dc.pr.PathDasher from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.dc.pr.Rasterizer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.DuctusRenderer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.DuctusShapeRenderer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.pipe.SpanShapeRenderer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.math.BigInteger[]
+Loading external class java.util.Random from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.math.MutableBigInteger from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.math.BigInteger from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.IndexColorModel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.java2d.SurfaceData from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.BufferedImage from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.SinglePixelPackedSampleModel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.ComponentSampleModel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.color.CMMImageLayout from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.ComponentColorModel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.color.ICC_Transform from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.color.ICC_ColorSpace from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.image.ColorModel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.image.ImageConsumer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.image.ImageProducer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Image from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.image.ImageObserver from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.peer.DropTargetContextPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DropTargetContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DropTargetEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DropTargetDragEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DropTargetDropEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.DropTargetListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.dnd.Autoscroll from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.swing.event.EventListenerList from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.swing.TimerQueue from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class javax.swing.Timer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DropTarget$DropTargetAutoScroller from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.dnd.DropTarget from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.util.Set[]
+Loading external class java.awt.ComponentOrientation from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.ComponentListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.HierarchyEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.HierarchyListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.HierarchyBoundsListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.KeyListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.MouseListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.MouseMotionListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.MouseWheelListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.font.TextHitInfo from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.InputMethodEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.InputMethodListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.lang.RuntimeException from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.ComponentListener[]
+Loading array interface java.awt.event.FocusListener[]
+Loading array interface java.awt.event.HierarchyListener[]
+Loading array interface java.awt.event.HierarchyBoundsListener[]
+Loading array interface java.awt.event.KeyListener[]
+Loading array interface java.awt.event.MouseListener[]
+Loading array interface java.awt.event.MouseMotionListener[]
+Loading array interface java.awt.event.MouseWheelListener[]
+Loading array interface java.awt.event.InputMethodListener[]
+Loading external interface java.awt.im.InputMethodRequests from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Component from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.Component[]
+Loading external class sun.awt.dnd.SunDropTargetContextPeer from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.AbstractSet from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.util.HashSet from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface sun.awt.datatransfer.ToolkitThreadBlockedHandler from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class sun.awt.dnd.SunDropTargetEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.LightweightDispatcher from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.FocusTraversalPolicy from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.event.ContainerEvent from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.awt.event.ContainerListener from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading array interface java.awt.event.ContainerListener[]
+Loading external interface java.awt.Container$EventTargetFilter from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Container from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.awt.Panel from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.applet.AudioClip from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.applet.AppletContext from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external interface java.applet.AppletStub from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+Loading external class java.applet.Applet from C:\Program1\Java\JDKs\Sun\jre\lib\rt.jar
+
+
+Warning: ---------------------------------------------------
+Warning: The license for this free software from IBM has
+Warning: expired. A new version with major improvements 
+Warning: and bug fixes may have been released. See: 
+Warning: http://www.alphaWorks.ibm.com/tech/jax 
+Warning: -----------------------------------------------------
+
+Fatal Error: Application "org.fonteditor.FE" is not in project.
+Specified on 105 in FE.jax.
+
+Terminating because of fatal errors
+
+exiting with -1

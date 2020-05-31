@@ -1,0 +1,4 @@
+REM JIKES
+cd source
+jikes -d ../bin Run.java
+cd ..

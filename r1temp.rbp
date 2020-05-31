@@ -1,0 +1,5 @@
+#Thu Aug 22 09:57:45 BST 2002
+classpath=C\:\\Program Files\\Java\\j2re1.4.0\\lib\\charsets.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\jaws.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\jce.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\jsse.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\rt.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\sunrsasign.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\ext\\dnsns.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\ext\\ldapsec.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\ext\\localedata.jar;C\:\\Program Files\\Java\\j2re1.4.0\\lib\\ext\\sunjce_provider.jar
+assertKeywordSupport=-1
+cachepath=C\:\\Documents and Settings\\Administrator\\.refactorit\\Cache\\cache_1470257511
+sourcepath=C\:\\Documents\\Java\\FontEditor\\source

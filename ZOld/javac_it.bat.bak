@@ -1,0 +1,2 @@
+REM JAVAC
+C:\Program1\Java\JDKs\IBM\bin\javac -classpath C:\Documents\Java\FontEditor\source -d bin Run.java

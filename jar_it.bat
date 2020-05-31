@@ -1,0 +1,4 @@
+REM JAR
+cd bin
+C:\Program1\Java\JDKs\IBM\bin\jar cmf Manifest.mf fe.jar *.class org fonts
+cd ..
